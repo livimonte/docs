@@ -376,10 +376,10 @@ de volta nosso model Post e fazer alguns pequenos ajustes::
 
         public $validate = array(
             'title' => array(
-                'rule' => 'notEmpty'
+                'rule' => 'notBlank'
             ),
             'body' => array(
-                'rule' => 'notEmpty'
+                'rule' => 'notBlank'
             )
         );
     }
